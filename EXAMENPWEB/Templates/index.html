@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="caja1">
+            <form class="ejercicio1" >
+                <a href="{{ url_for('ejercicio1') }}">Ejercicio 1</a>
+            </form>
+        </div>
+
+        <div class="caja2">
+            <form class="ejercicio2">
+                <a href="{{ url_for('ejercicio2') }}">Ejercicio 2</a>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
